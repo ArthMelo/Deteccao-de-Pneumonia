@@ -53,4 +53,4 @@ Link para o dataset:
 
 ---
 
-Desenvolvido por **Arthur de Melo Barbosa** como projeto final para a disciplina de Computação Científica e Análise de Dados na UFRJ.
+Desenvolvido por **Arthur de Melo Barbosa** como projeto final para a disciplina de Computação Científica e Análise de Dados no 4º período do curso de Ciência da Computação na UFRJ.
