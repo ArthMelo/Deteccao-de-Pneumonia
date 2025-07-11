@@ -3,11 +3,18 @@
 ## 📌 Visão Geral
 Este projeto de classificação utiliza técnicas de aprendizado de máquina para identificar pneumonia em imagens de raio-X do tórax. Combinando Análise de Componentes Principais (PCA) para redução de dimensionalidade e Regressão Logística para classificação, o modelo alcança 87% de acurácia na detecção de casos.
 
-## 🔍 Principais Características
-- **Pré-processamento avançado**: Redimensionamento, normalização e flattening de imagens
-- **PCA otimizado**: Manutenção de 85% da variância com apenas 71 componentes
-- **Avaliação robusta**: Métricas detalhadas (precisão, recall, F1-score) e validação cruzada
+---
+
+## 🔍 Sobre o Projeto
+
+O objetivo deste trabalho é desenvolver um sistema eficiente capaz de classificar imagens médicas em duas categorias: "normal" ou "pneumonia". Para isso, aplicamos:
+
+- **Pré-processamento** das imagens (conversão para escala de cinza, redimensionamento e achatamento).
+- **Normalização** dos dados para garantir que cada variável tenha média zero e desvio padrão um.
+- **Redução de dimensionalidade com PCA**, mantendo 85% da variância original, o que corresponde a 71 componentes principais.
+- **Classificação com Regressão Logística**, treinada para distinguir entre casos normais e pneumônicos.
 - **Visualização clara**: Gráficos de variância e matriz de confusão
+---
 
 ## 📊 Resultados Principais
 | Métrica       | Normal | Pneumonia |
@@ -16,13 +23,20 @@ Este projeto de classificação utiliza técnicas de aprendizado de máquina par
 | Recall        | 85%    | 87%       |
 | F1-score      | 77%    | 91%       |
 
-## 🛠️ Tecnologias Utilizadas
-- Python 3.9+
-- Bibliotecas:
-  - Scikit-learn (PCA, Regressão Logística)
-  - OpenCV (processamento de imagens)
-  - Matplotlib/Seaborn (visualização)
+--- 
 
+## 🛠️ Tecnologias e Bibliotecas
+
+O projeto foi implementado em Python e utilizou as seguintes bibliotecas:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scikit-learn`
+- `opencv-python` (cv2)
+- `seaborn`
+
+---
 
 ## 📝 Conclusões e Melhorias Futuras
 O modelo demonstrou eficácia na detecção de pneumonia, porém com algumas oportunidades de melhoria:
@@ -30,9 +44,13 @@ O modelo demonstrou eficácia na detecção de pneumonia, porém com algumas opo
 - Teste com redes neurais convolucionais (CNNs)
 - Análise mais aprofundada dos falsos positivos/negativos
 
-## 📚 Referências
-- Kermany et al. (2018) - Identifying Medical Diagnoses by Image-Based Deep Learning
-- Dataset Chest X-Ray Images (Pneumonia) - Kaggle
+---
+
+## 📚 Dataset
+
+O conjunto de dados utilizado foi obtido no Kaggle e contém 5.863 imagens de raio-X divididas em treino, teste e validação, com subpastas para as classes "normal" e "pneumonia".  
+Link para o dataset:  
+[Chest X-Ray Images (Pneumonia) - Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data)
 
 ---
 
