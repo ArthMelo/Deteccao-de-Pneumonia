@@ -3,7 +3,6 @@
 ## 📌 Visão Geral
 Este projeto de classificação utiliza técnicas de aprendizado de máquina para identificar pneumonia em imagens de raio-X do tórax. Combinando Análise de Componentes Principais (PCA) para redução de dimensionalidade e Regressão Logística para classificação, o modelo alcança 87% de acurácia na detecção de casos.
 
----
 
 ## 🔍 Sobre o Projeto
 
@@ -14,7 +13,7 @@ O objetivo deste trabalho é desenvolver um sistema eficiente capaz de classific
 - **Redução de dimensionalidade com PCA**, mantendo 85% da variância original, o que corresponde a 71 componentes principais.
 - **Classificação com Regressão Logística**, treinada para distinguir entre casos normais e pneumônicos.
 - **Visualização clara**: Gráficos de variância e matriz de confusão
----
+
 
 ## 📊 Resultados Principais
 | Métrica       | Normal | Pneumonia |
@@ -23,7 +22,7 @@ O objetivo deste trabalho é desenvolver um sistema eficiente capaz de classific
 | Recall        | 85%    | 87%       |
 | F1-score      | 77%    | 91%       |
 
---- 
+
 
 ## 🛠️ Tecnologias e Bibliotecas
 
@@ -36,7 +35,7 @@ O projeto foi implementado em Python e utilizou as seguintes bibliotecas:
 - `opencv-python` (cv2)
 - `seaborn`
 
----
+
 
 ## 📝 Conclusões e Melhorias Futuras
 O modelo demonstrou eficácia na detecção de pneumonia, porém com algumas oportunidades de melhoria:
@@ -44,7 +43,7 @@ O modelo demonstrou eficácia na detecção de pneumonia, porém com algumas opo
 - Teste com redes neurais convolucionais (CNNs)
 - Análise mais aprofundada dos falsos positivos/negativos
 
----
+
 
 ## 📚 Dataset
 
